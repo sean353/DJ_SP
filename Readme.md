@@ -83,4 +83,22 @@ The application consists of the following models:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sean353/DJ_SP.git
+
+2. cd my project file 
+   open 2 terminals 
+   one for the backend and one for frontend
+
+3.  first activate env => env\Scripts\activate.
+   cd backend => py manage.py runserver.
+
+   second terminal => cd frontend and then npm start.
+
+## admin Credentials
+username : shon
+password : 123 
+
+
+## User Credentials 
+username : waga 
+password : 123 
