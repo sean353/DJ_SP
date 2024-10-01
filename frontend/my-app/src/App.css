@@ -1,0 +1,128 @@
+/* App.css */
+.navbar {
+  margin-bottom: -10; /* מוודא שאין רווח אחרי ה-navbar */
+  padding: 0; /* מבטל כל padding */
+}
+
+.container-fluid {
+  padding: 0; /* מבטל מרווחים בתוך הקונטיינר */
+}
+
+
+/* Add a gray background color and some padding to the footer */
+
+
+
+.background {
+  background-image: url("/public/super.jpg");
+  background-size: cover; /* יגרום לתמונה לכסות את כל הרקע */
+  background-position: center; /* ממקם את התמונה במרכז */
+  min-height: 100vh; /* גובה מינימלי של המסך */
+  position: relative; /* מאפשר למקם אלמנטים נוספים אם צריך */
+}
+
+
+
+
+.background h1 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+body {
+  font-family: 'lato', sans-serif;
+}
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: center;
+  small {
+    font-size: 0.5em;
+  }
+}
+
+
+.responsive-table {
+  li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  .table-header {
+    background-color: #95A5A6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+  }
+  .col-1 {
+    flex-basis: 10%;
+  }
+  .col-2 {
+    flex-basis: 40%;
+  }
+  .col-3 {
+    flex-basis: 25%;
+  }
+  .col-4 {
+    flex-basis: 25%;
+  }
+  
+  @media all and (max-width: 767px) {
+    .table-header {
+      display: none;
+    }
+    
+    li {
+      display: block;
+    }
+    .col {
+      
+      flex-basis: 100%;
+      
+    }
+    .col {
+      display: flex;
+      padding: 10px 0;
+      &:before {
+        color: #6C7A89;
+        padding-right: 10px;
+        content: attr(data-label);
+        flex-basis: 50%;
+        text-align: right;
+      }
+    }
+  }
+}
+
+
+
+.products-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* 1fr לסיידבר, 3fr לתוכן המוצרים */
+  /* רווח בין הסיידבר למוצרים */
+}
+
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+.products-content {
+  padding: 10px;
+  background-color: #ffffff;
+}
+
