@@ -6,6 +6,7 @@ import { loginAsync, selectAdmin, selectLogged, selectUsername } from '../slice/
 import { fetchProductsAsync } from '../slice/productslice'
 import { clearcart, selectCartItems, setCartItems } from '../slice/orderdetilslice'
 import SidebarCart from './SidebarCart';
+import { Link } from 'react-router-dom'
 
 const Categorycomp = () => {
     const [Catdesc, setCatdesc] = useState<string>("")
@@ -136,8 +137,10 @@ const Categorycomp = () => {
                 />
                     {filteredcategories.map((category) => (
                         <div key={category.id} className="col-sm-2">
-                            <div className="panel panel-success">
-                                <div className="panel-heading">{category.Catdesc}</div>
+                            <div className="">
+                            <Link to={`/products/categories/${category.id}`} className='btn btn-success'>
+              {category.Catdesc}
+            </Link>
                             </div>
                         </div>
                     ))}
@@ -147,7 +150,7 @@ const Categorycomp = () => {
 
             )
             }
-            <SidebarCart></SidebarCart>
+            
         </div>
     )
 }

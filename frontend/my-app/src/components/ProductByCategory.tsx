@@ -5,7 +5,7 @@ import { fetchProductsByCategoryAsync, selectProducts } from '../slice/productsl
 import { incrementQuantity, decrementQuantity, selectCartItems, addToCart, setCartItems, clearcart } from '../slice/orderdetilslice'; // ודא שאתה ייבא את פעולות ה-reducer
 import Navbar from '../Navbar';
 import { Product } from '../models/Product';
-import { fetchCategoriesAsync } from '../slice/categoryslice';
+import { fetchCategoriesAsync, selectCategory } from '../slice/categoryslice';
 import { selectLogged, selectUsername } from '../slice/loginslice';
 import { toast,ToastContainer } from 'react-toastify';
 
@@ -14,6 +14,7 @@ const ProductByCategory = () => {
     const dispatch = useAppDispatch();
     const products = useAppSelector(selectProducts);
     const cartItem = useAppSelector(selectCartItems); // הנח שיש לך חלקת cart ב-redux
+    const categories = useAppSelector(selectCategory)
 
 
     const isLogged = useAppSelector(selectLogged)
@@ -74,11 +75,12 @@ const ProductByCategory = () => {
       }
         dispatch(addToCart(product)); // ודא שיש לך פעולה של הוספת מוצר לעגלה
     };
-
+    const category = categories.find(cat => cat.id === categoryId);
+    
     return (
         <div>
             <Navbar />
-            <h2>Products in Category</h2>
+            <h2 style={{margin:"60px"}}>Products</h2>
             <div className="row product-list">
                 {products.map((product) => {
                     const cartProduct = cartItem.find(item => item.product.id === product.id);

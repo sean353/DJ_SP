@@ -610,3 +610,51 @@
 2024-10-04 16:06:50,516 - base.views - INFO - User 'koren' has logged in. Is admin: False
 2024-10-04 16:07:14,499 - base.views - INFO - User 'shon' has logged in. Is admin: True
 2024-10-04 16:16:36,063 - base.views - INFO - User 'mishel' has logged in. Is admin: False
+2024-10-04 16:42:57,342 - base.views - INFO - Starting function: create
+2024-10-04 16:42:57,353 - base.views - INFO - Order for customer 'mishel' created with total price 271.30
+2024-10-04 16:42:57,354 - base.views - INFO - Function create completed successfully
+2024-10-04 16:42:57,365 - base.views - INFO - Starting function: create
+2024-10-04 16:42:57,371 - base.views - INFO - Starting function: create
+2024-10-04 16:42:57,383 - base.views - INFO - OrderDetail for order '77' added, product 'Shampoo' quantity 1
+2024-10-04 16:42:57,383 - base.views - INFO - Function create completed successfully
+2024-10-04 16:42:57,407 - base.views - INFO - OrderDetail for order '77' added, product 'Kiwi' quantity 1
+2024-10-04 16:42:57,407 - base.views - INFO - Function create completed successfully
+2024-10-04 16:42:57,409 - base.views - INFO - Starting function: create
+2024-10-04 16:42:57,411 - base.views - INFO - Starting function: create
+2024-10-04 16:42:57,420 - base.views - INFO - Starting function: create
+2024-10-04 16:42:57,424 - base.views - INFO - Starting function: create
+2024-10-04 16:42:57,428 - base.views - INFO - Starting function: create
+2024-10-04 16:42:57,430 - base.views - INFO - Starting function: create
+2024-10-04 16:42:57,453 - base.views - INFO - OrderDetail for order '77' added, product 'Cheeder Cheese' quantity 1
+2024-10-04 16:42:57,454 - base.views - INFO - Function create completed successfully
+2024-10-04 16:42:57,467 - base.views - INFO - Starting function: create
+2024-10-04 16:42:57,483 - base.views - INFO - OrderDetail for order '77' added, product 'Banana' quantity 1
+2024-10-04 16:42:57,483 - base.views - INFO - Function create completed successfully
+2024-10-04 16:42:57,515 - base.views - INFO - OrderDetail for order '77' added, product 'Soda' quantity 3
+2024-10-04 16:42:57,515 - base.views - INFO - Function create completed successfully
+2024-10-04 16:42:57,527 - base.views - INFO - Starting function: create
+2024-10-04 16:42:57,547 - base.views - INFO - OrderDetail for order '77' added, product 'Ground Beef' quantity 1
+2024-10-04 16:42:57,548 - base.views - INFO - Function create completed successfully
+2024-10-04 16:42:57,566 - base.views - INFO - OrderDetail for order '77' added, product 'Orange juice' quantity 5
+2024-10-04 16:42:57,566 - base.views - INFO - Function create completed successfully
+2024-10-04 16:42:57,575 - base.views - INFO - Starting function: create
+2024-10-04 16:42:57,578 - base.views - INFO - Starting function: create
+2024-10-04 16:42:57,598 - base.views - INFO - OrderDetail for order '77' added, product 'Milk' quantity 1
+2024-10-04 16:42:57,598 - base.views - INFO - Function create completed successfully
+2024-10-04 16:42:57,607 - base.views - INFO - Starting function: create
+2024-10-04 16:42:57,630 - base.views - INFO - OrderDetail for order '77' added, product 'Toilet Paper' quantity 1
+2024-10-04 16:42:57,630 - base.views - INFO - Function create completed successfully
+2024-10-04 16:42:57,641 - base.views - INFO - Starting function: create
+2024-10-04 16:42:57,645 - base.views - INFO - Starting function: create
+2024-10-04 16:42:57,661 - base.views - INFO - OrderDetail for order '77' added, product 'Yugurt' quantity 1
+2024-10-04 16:42:57,661 - base.views - INFO - Function create completed successfully
+2024-10-04 16:42:57,694 - base.views - INFO - OrderDetail for order '77' added, product 'Rice' quantity 1
+2024-10-04 16:42:57,694 - base.views - INFO - Function create completed successfully
+2024-10-04 16:42:57,727 - base.views - INFO - OrderDetail for order '77' added, product 'Bread' quantity 1
+2024-10-04 16:42:57,727 - base.views - INFO - Function create completed successfully
+2024-10-04 16:42:57,742 - base.views - INFO - OrderDetail for order '77' added, product 'Ice Cream' quantity 1
+2024-10-04 16:42:57,742 - base.views - INFO - Function create completed successfully
+2024-10-04 16:42:57,760 - base.views - INFO - OrderDetail for order '77' added, product 'Pasta' quantity 3
+2024-10-04 16:42:57,760 - base.views - INFO - Function create completed successfully
+2024-10-04 16:42:57,791 - base.views - INFO - OrderDetail for order '77' added, product 'Granola Bars' quantity 7
+2024-10-04 16:42:57,791 - base.views - INFO - Function create completed successfully
