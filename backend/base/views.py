@@ -169,6 +169,12 @@ class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
 
+    def get_queryset(self):
+        category_id = self.request.query_params.get('category', None)
+        if category_id:
+            return self.queryset.filter(category=category_id)
+        return self.queryset
+
     @log_decorator
     def create(self, request, *args, **kwargs):
         response = super().create(request, *args, **kwargs)

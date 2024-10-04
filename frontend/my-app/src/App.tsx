@@ -5,6 +5,10 @@ import { Outlet, Link } from "react-router-dom";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import SidebarCart from './components/SidebarCart';
+import CategorySidebar from './components/CategorySidebar';
+
+import { selectAdmin } from './slice/loginslice';
+
 
 
 
@@ -14,6 +18,8 @@ const App: React.FC = () => {
       <div className="background">
       <Navbar />
       <ToastContainer />
+      <CategorySidebar/>
+      
     
       <h1 style={{color:"white" , textAlign:'center',marginBottom:20}}> Welcome to Supermarket</h1>
         <h1 style={{color:"cadetblue",textAlign:'center'}}>Mission, Vision & Values</h1>

@@ -446,3 +446,167 @@
 2024-10-01 16:52:23,507 - base.views - INFO - User 'mishel' has logged in. Is admin: False
 2024-10-01 16:53:12,005 - base.views - INFO - User 'shon' has logged in. Is admin: True
 2024-10-01 16:55:26,272 - base.views - INFO - User 'koren' has logged in. Is admin: False
+2024-10-01 17:20:46,707 - base.views - INFO - User 'koren' has logged in. Is admin: False
+2024-10-01 17:21:21,294 - base.views - INFO - User 'shon' has logged in. Is admin: True
+2024-10-01 17:21:37,829 - base.views - INFO - Starting function: update
+2024-10-01 17:21:37,843 - base.views - INFO - Customer 'erika' updated with phone '22' And added with Address 'aa'
+2024-10-01 17:21:37,843 - base.views - INFO - Function update completed successfully
+2024-10-01 17:21:59,752 - base.views - INFO - User 'waga' has logged in. Is admin: False
+2024-10-01 17:23:25,560 - base.views - INFO - Starting function: create
+2024-10-01 17:23:25,570 - base.views - INFO - Order for customer 'waga' created with total price 151.90
+2024-10-01 17:23:25,570 - base.views - INFO - Function create completed successfully
+2024-10-01 17:23:25,588 - base.views - INFO - Starting function: create
+2024-10-01 17:23:25,593 - base.views - INFO - Starting function: create
+2024-10-01 17:23:25,597 - base.views - INFO - Starting function: create
+2024-10-01 17:23:25,619 - base.views - INFO - OrderDetail for order '72' added, product 'Shampoo' quantity 1
+2024-10-01 17:23:25,619 - base.views - INFO - Function create completed successfully
+2024-10-01 17:23:25,628 - base.views - INFO - Starting function: create
+2024-10-01 17:23:25,649 - base.views - INFO - OrderDetail for order '72' added, product 'Kiwi' quantity 1
+2024-10-01 17:23:25,649 - base.views - INFO - Function create completed successfully
+2024-10-01 17:23:25,658 - base.views - INFO - Starting function: create
+2024-10-01 17:23:25,663 - base.views - INFO - Starting function: create
+2024-10-01 17:23:25,665 - base.views - INFO - Starting function: create
+2024-10-01 17:23:25,674 - base.views - INFO - Starting function: create
+2024-10-01 17:23:25,699 - base.views - INFO - OrderDetail for order '72' added, product 'Banana' quantity 1
+2024-10-01 17:23:25,700 - base.views - INFO - Function create completed successfully
+2024-10-01 17:23:25,710 - base.views - INFO - Starting function: create
+2024-10-01 17:23:25,732 - base.views - INFO - OrderDetail for order '72' added, product 'Milk' quantity 1
+2024-10-01 17:23:25,732 - base.views - INFO - Function create completed successfully
+2024-10-01 17:23:25,764 - base.views - INFO - OrderDetail for order '72' added, product 'Cheeder Cheese' quantity 1
+2024-10-01 17:23:25,764 - base.views - INFO - Function create completed successfully
+2024-10-01 17:23:25,768 - base.views - INFO - Starting function: create
+2024-10-01 17:23:25,776 - base.views - INFO - Starting function: create
+2024-10-01 17:23:25,794 - base.views - INFO - OrderDetail for order '72' added, product 'Toilet Paper' quantity 1
+2024-10-01 17:23:25,794 - base.views - INFO - Function create completed successfully
+2024-10-01 17:23:25,825 - base.views - INFO - OrderDetail for order '72' added, product 'Pizza' quantity 1
+2024-10-01 17:23:25,826 - base.views - INFO - Function create completed successfully
+2024-10-01 17:23:25,833 - base.views - INFO - Starting function: create
+2024-10-01 17:23:25,843 - base.views - INFO - OrderDetail for order '72' added, product 'Yugurt' quantity 1
+2024-10-01 17:23:25,843 - base.views - INFO - Function create completed successfully
+2024-10-01 17:23:25,851 - base.views - INFO - Starting function: create
+2024-10-01 17:23:25,875 - base.views - INFO - OrderDetail for order '72' added, product 'Bread' quantity 1
+2024-10-01 17:23:25,875 - base.views - INFO - Function create completed successfully
+2024-10-01 17:23:25,892 - base.views - INFO - OrderDetail for order '72' added, product 'Pasta' quantity 1
+2024-10-01 17:23:25,892 - base.views - INFO - Function create completed successfully
+2024-10-01 17:23:25,903 - base.views - INFO - OrderDetail for order '72' added, product 'Orange juice' quantity 1
+2024-10-01 17:23:25,903 - base.views - INFO - Function create completed successfully
+2024-10-01 17:23:25,931 - base.views - INFO - OrderDetail for order '72' added, product 'Ice Cream' quantity 1
+2024-10-01 17:23:25,931 - base.views - INFO - Function create completed successfully
+2024-10-01 17:23:25,962 - base.views - INFO - OrderDetail for order '72' added, product 'Rice' quantity 1
+2024-10-01 17:23:25,963 - base.views - INFO - Function create completed successfully
+2024-10-01 17:28:56,595 - base.views - INFO - User 'shon' has logged in. Is admin: True
+2024-10-01 17:29:14,910 - base.views - INFO - User 'koren' has logged in. Is admin: False
+2024-10-01 17:31:52,812 - base.views - INFO - Starting function: register
+2024-10-01 17:31:52,812 - base.views - INFO - Function register completed successfully
+2024-10-01 17:31:54,917 - base.views - INFO - Starting function: register
+2024-10-01 17:31:54,917 - base.views - INFO - Function register completed successfully
+2024-10-03 21:06:30,131 - base.views - INFO - User 'mishel' has logged in. Is admin: False
+2024-10-03 21:08:32,670 - base.views - INFO - Starting function: create
+2024-10-03 21:08:32,686 - base.views - INFO - Order for customer 'mishel' created with total price 86.40
+2024-10-03 21:08:32,686 - base.views - INFO - Function create completed successfully
+2024-10-03 21:08:32,718 - base.views - INFO - Starting function: create
+2024-10-03 21:08:32,723 - base.views - INFO - Starting function: create
+2024-10-03 21:08:32,735 - base.views - INFO - Starting function: create
+2024-10-03 21:08:32,745 - base.views - INFO - OrderDetail for order '73' added, product 'Bread' quantity 1
+2024-10-03 21:08:32,745 - base.views - INFO - Function create completed successfully
+2024-10-03 21:08:32,755 - base.views - INFO - Starting function: create
+2024-10-03 21:08:32,778 - base.views - INFO - OrderDetail for order '73' added, product 'Banana' quantity 1
+2024-10-03 21:08:32,778 - base.views - INFO - Function create completed successfully
+2024-10-03 21:08:32,786 - base.views - INFO - Starting function: create
+2024-10-03 21:08:32,791 - base.views - INFO - Starting function: create
+2024-10-03 21:08:32,810 - base.views - INFO - OrderDetail for order '73' added, product 'Ground Beef' quantity 1
+2024-10-03 21:08:32,810 - base.views - INFO - Function create completed successfully
+2024-10-03 21:08:32,821 - base.views - INFO - Starting function: create
+2024-10-03 21:08:32,841 - base.views - INFO - OrderDetail for order '73' added, product 'Milk' quantity 1
+2024-10-03 21:08:32,841 - base.views - INFO - Function create completed successfully
+2024-10-03 21:08:32,851 - base.views - INFO - Starting function: create
+2024-10-03 21:08:32,869 - base.views - INFO - OrderDetail for order '73' added, product 'Soda' quantity 1
+2024-10-03 21:08:32,870 - base.views - INFO - Function create completed successfully
+2024-10-03 21:08:32,891 - base.views - INFO - OrderDetail for order '73' added, product 'Shampoo' quantity 1
+2024-10-03 21:08:32,891 - base.views - INFO - Function create completed successfully
+2024-10-03 21:08:32,904 - base.views - INFO - OrderDetail for order '73' added, product 'Granola Bars' quantity 1
+2024-10-03 21:08:32,904 - base.views - INFO - Function create completed successfully
+2024-10-03 21:08:32,922 - base.views - INFO - OrderDetail for order '73' added, product 'Kiwi' quantity 1
+2024-10-03 21:08:32,922 - base.views - INFO - Function create completed successfully
+2024-10-03 21:11:29,632 - base.views - INFO - Starting function: create
+2024-10-03 21:11:29,643 - base.views - INFO - Order for customer 'mishel' created with total price 156.80
+2024-10-03 21:11:29,643 - base.views - INFO - Function create completed successfully
+2024-10-03 21:11:29,664 - base.views - INFO - Starting function: create
+2024-10-03 21:11:29,664 - base.views - INFO - Starting function: create
+2024-10-03 21:11:29,666 - base.views - INFO - Starting function: create
+2024-10-03 21:11:29,667 - base.views - INFO - Starting function: create
+2024-10-03 21:11:29,668 - base.views - INFO - Starting function: create
+2024-10-03 21:11:29,669 - base.views - INFO - Starting function: create
+2024-10-03 21:11:29,701 - base.views - INFO - OrderDetail for order '74' added, product 'Bread' quantity 1
+2024-10-03 21:11:29,701 - base.views - INFO - Function create completed successfully
+2024-10-03 21:11:29,710 - base.views - INFO - Starting function: create
+2024-10-03 21:11:29,719 - base.views - INFO - OrderDetail for order '74' added, product 'Rice' quantity 1
+2024-10-03 21:11:29,720 - base.views - INFO - Function create completed successfully
+2024-10-03 21:11:29,733 - base.views - INFO - OrderDetail for order '74' added, product 'Shampoo' quantity 1
+2024-10-03 21:11:29,733 - base.views - INFO - Function create completed successfully
+2024-10-03 21:11:29,741 - base.views - INFO - Starting function: create
+2024-10-03 21:11:29,744 - base.views - INFO - Starting function: create
+2024-10-03 21:11:29,763 - base.views - INFO - OrderDetail for order '74' added, product 'Milk' quantity 2
+2024-10-03 21:11:29,763 - base.views - INFO - Function create completed successfully
+2024-10-03 21:11:29,795 - base.views - INFO - OrderDetail for order '74' added, product 'Ice Cream' quantity 1
+2024-10-03 21:11:29,795 - base.views - INFO - Function create completed successfully
+2024-10-03 21:11:29,813 - base.views - INFO - OrderDetail for order '74' added, product 'Toilet Paper' quantity 1
+2024-10-03 21:11:29,813 - base.views - INFO - Function create completed successfully
+2024-10-03 21:11:29,827 - base.views - INFO - OrderDetail for order '74' added, product 'Cheeder Cheese' quantity 3
+2024-10-03 21:11:29,828 - base.views - INFO - Function create completed successfully
+2024-10-03 21:11:29,843 - base.views - INFO - OrderDetail for order '74' added, product 'Soda' quantity 1
+2024-10-03 21:11:29,843 - base.views - INFO - Function create completed successfully
+2024-10-03 21:11:29,858 - base.views - INFO - OrderDetail for order '74' added, product 'Ground Beef' quantity 1
+2024-10-03 21:11:29,858 - base.views - INFO - Function create completed successfully
+2024-10-04 14:48:13,921 - base.views - INFO - User 'koren' has logged in. Is admin: False
+2024-10-04 15:59:54,615 - base.views - INFO - User 'waga' has logged in. Is admin: False
+2024-10-04 16:00:08,844 - base.views - INFO - Starting function: create
+2024-10-04 16:00:08,857 - base.views - INFO - Order for customer 'waga' created with total price 24.90
+2024-10-04 16:00:08,857 - base.views - INFO - Function create completed successfully
+2024-10-04 16:00:08,875 - base.views - INFO - Starting function: create
+2024-10-04 16:00:08,877 - base.views - INFO - Starting function: create
+2024-10-04 16:00:08,878 - base.views - INFO - Starting function: create
+2024-10-04 16:00:08,927 - base.views - INFO - OrderDetail for order '75' added, product 'Shampoo' quantity 1
+2024-10-04 16:00:08,927 - base.views - INFO - Function create completed successfully
+2024-10-04 16:00:08,937 - base.views - INFO - OrderDetail for order '75' added, product 'Banana' quantity 1
+2024-10-04 16:00:08,937 - base.views - INFO - Function create completed successfully
+2024-10-04 16:00:08,945 - base.views - INFO - OrderDetail for order '75' added, product 'Kiwi' quantity 1
+2024-10-04 16:00:08,946 - base.views - INFO - Function create completed successfully
+2024-10-04 16:00:23,842 - base.views - INFO - User 'koren' has logged in. Is admin: False
+2024-10-04 16:00:46,756 - base.views - INFO - Starting function: create
+2024-10-04 16:00:46,776 - base.views - INFO - Order for customer 'koren' created with total price 94.30
+2024-10-04 16:00:46,776 - base.views - INFO - Function create completed successfully
+2024-10-04 16:00:46,790 - base.views - INFO - Starting function: create
+2024-10-04 16:00:46,793 - base.views - INFO - Starting function: create
+2024-10-04 16:00:46,794 - base.views - INFO - Starting function: create
+2024-10-04 16:00:46,826 - base.views - INFO - OrderDetail for order '76' added, product 'Kiwi' quantity 1
+2024-10-04 16:00:46,826 - base.views - INFO - Function create completed successfully
+2024-10-04 16:00:46,830 - base.views - INFO - Starting function: create
+2024-10-04 16:00:46,840 - base.views - INFO - Starting function: create
+2024-10-04 16:00:46,842 - base.views - INFO - Starting function: create
+2024-10-04 16:00:46,844 - base.views - INFO - Starting function: create
+2024-10-04 16:00:46,874 - base.views - INFO - OrderDetail for order '76' added, product 'Shampoo' quantity 1
+2024-10-04 16:00:46,874 - base.views - INFO - Function create completed successfully
+2024-10-04 16:00:46,885 - base.views - INFO - Starting function: create
+2024-10-04 16:00:46,901 - base.views - INFO - OrderDetail for order '76' added, product 'Cheeder Cheese' quantity 1
+2024-10-04 16:00:46,901 - base.views - INFO - Function create completed successfully
+2024-10-04 16:00:46,926 - base.views - INFO - OrderDetail for order '76' added, product 'Soda' quantity 1
+2024-10-04 16:00:46,926 - base.views - INFO - Function create completed successfully
+2024-10-04 16:00:46,944 - base.views - INFO - Starting function: create
+2024-10-04 16:00:46,955 - base.views - INFO - OrderDetail for order '76' added, product 'Milk' quantity 1
+2024-10-04 16:00:46,955 - base.views - INFO - Function create completed successfully
+2024-10-04 16:00:46,983 - base.views - INFO - OrderDetail for order '76' added, product 'Banana' quantity 1
+2024-10-04 16:00:46,983 - base.views - INFO - Function create completed successfully
+2024-10-04 16:00:46,999 - base.views - INFO - OrderDetail for order '76' added, product 'Pizza' quantity 1
+2024-10-04 16:00:47,000 - base.views - INFO - Function create completed successfully
+2024-10-04 16:00:47,020 - base.views - INFO - OrderDetail for order '76' added, product 'Ground Beef' quantity 1
+2024-10-04 16:00:47,020 - base.views - INFO - Function create completed successfully
+2024-10-04 16:00:47,053 - base.views - INFO - OrderDetail for order '76' added, product 'Granola Bars' quantity 1
+2024-10-04 16:00:47,053 - base.views - INFO - Function create completed successfully
+2024-10-04 16:03:24,193 - base.views - INFO - User 'shon' has logged in. Is admin: True
+2024-10-04 16:03:42,593 - base.views - INFO - Starting function: destroy
+2024-10-04 16:03:42,596 - base.views - INFO - Category 'Bakery' deleted
+2024-10-04 16:03:42,605 - base.views - INFO - Function destroy completed successfully
+2024-10-04 16:06:50,516 - base.views - INFO - User 'koren' has logged in. Is admin: False
+2024-10-04 16:07:14,499 - base.views - INFO - User 'shon' has logged in. Is admin: True
+2024-10-04 16:16:36,063 - base.views - INFO - User 'mishel' has logged in. Is admin: False

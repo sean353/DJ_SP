@@ -192,7 +192,7 @@ const Products: React.FC = () => {
   // if (status === 'loading') return <p>Loading...</p>;
   // if (status === 'failed') return <p>Error: {error}</p>;
   return (
-    <div className='background' style={{ display: isSpecificAdmin?"flex":'',marginLeft:isSpecificAdmin? "250px":''}}>
+    <div className='' style={{ display: isSpecificAdmin?"flex":'',marginLeft:isSpecificAdmin? "250px":'' ,color:"gray"}}>
       {logged && !admin &&(
       <div>
         <SidebarCart></SidebarCart>

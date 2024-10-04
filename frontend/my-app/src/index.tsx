@@ -17,6 +17,7 @@ import Cartcomp from './components/Cartcomp';
 import Paypal from './components/Paypal';
 import Ordercomp from './components/Ordercomp';
 import MyOrdersComponent from './components/MyOrdersComponent';
+import ProductByCategory from './components/ProductByCategory';
 // import OrderDetailsComponent from './components/OrderDetailsComponent';
 
 const rootElement = document.getElementById('root');
@@ -39,6 +40,8 @@ if (rootElement) {
             <Route path="paypal" element={<Paypal />} />
             <Route path="order_detils" element={<OrderDetilsComponent/>} />
             <Route path="my_orders" element={<MyOrdersComponent/>} />
+            <Route path="/products/categories/:categoryId" element={<ProductByCategory />} />
+          <Route path="/categories" element={<Categorycomp />} />
 
             
             
